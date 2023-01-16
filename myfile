@@ -1,1 +1,11 @@
 my first line
+---
+-	name: myfirst app
+	hosts: all
+	become: true
+	tasks: 
+	- name: install package
+	  yum:
+		name: httpd
+		status: installed
+		
