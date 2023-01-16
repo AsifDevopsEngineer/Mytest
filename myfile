@@ -1,8 +1,6 @@
 my first line
 ---
--	name: myfirst app
-	hosts: all
-	become: true
+-	my name is @#$%****Asif
 	tasks: 
 	- name: install package
 	  yum:
