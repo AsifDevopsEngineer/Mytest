@@ -1,6 +1,7 @@
 my first line
 ---
 -	my name is @#$%****Asif
+	with ssh
 	tasks: 
 	- name: install package
 	  yum:
